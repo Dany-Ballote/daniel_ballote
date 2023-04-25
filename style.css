@@ -1,0 +1,843 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.808);
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: none;
+}
+.barras {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  margin-left: 20px;
+  display: none !important;
+  font-size: 30px;
+}
+
+.menu_opciones {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 100px; */
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+#menu {
+  width: 100%;
+}
+.menu_opciones a:hover {
+  color: #dfd225;
+}
+
+.menu_opciones a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu_opciones a li {
+  list-style: none;
+}
+
+
+
+.fondo {
+  width: 100%;
+}
+
+.whatsapp{
+  max-width: 50px;
+  margin-top: -50px;
+  padding: 10px;
+  z-index: 99;
+  background-color: green;
+  border-top-left-radius: 20px;
+  border-end-start-radius: 20px;
+  position: sticky;
+  top:470px;
+  left:100%;
+
+}
+
+.fa-whatsapp{
+  color:#fff;
+  font-size: 30px;
+  padding-left: 5px;
+  
+ 
+}
+
+.box1 {
+  position: relative;
+}
+
+.animacion {
+  width: 100%;
+  height: 100vh;
+  object-fit:cover;
+}
+
+.fondo {
+  background-color: rgba(160, 153, 153, 0.377);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.infoperfil {
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+}
+
+.perfil {
+  max-width: 250px;
+  margin: auto;
+}
+.perfil img {
+  width: 100%;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+.nombre {
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
+  text-shadow: 10px 10px 20px #000;
+}
+
+.apellido {
+  color: #fff;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.ocupacion {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.front {
+  color: #fff;
+}
+
+.box2 {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.box2-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.box2-1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  margin-top: 100px;
+  width: 100%;
+  padding: 25px;
+  line-height: 30px;
+  border: 4px ridge #000;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #8b8b8b;
+}
+
+.habilidades {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+}
+
+.titulo1 {
+  margin-top: 80px;
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 80px;
+  border-left: 6px solid #000;
+}
+
+.titulo1 h3 {
+  text-shadow: 10px 10px 5px #b9b9b9;
+}
+
+.titulo1 h2 {
+  text-shadow: 10px 10px 5px #b9b9b9;
+}
+
+.info_daniel {
+  max-width: 400px;
+  font-family: "Rubik", sans-serif;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.info {
+  font-weight: bolder;
+}
+
+.info1-1 {
+  color: blue;
+}
+
+.foto_daniel {
+  max-width: 500px;
+  height: 600px;
+  padding: 15px;
+}
+
+.foto_daniel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid #fcfcfc1e;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.barra1 {
+  width: 100%;
+  height: 10px;
+  background-color: #dbd4d4;
+  border-radius: 10px;
+}
+
+.barra1-1 {
+  max-width: 1000px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.barra2 {
+  width: 100%;
+  height: 10px;
+  background-color: #dbd4d4;
+  border-radius: 10px;
+}
+
+.barra2-2 {
+  max-width: 800px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.barra3 {
+  width: 100%;
+  height: 10px;
+  background-color: #dbd4d4;
+  border-radius: 10px;
+}
+
+.barra3-3 {
+  width: 40px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.box3 {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.portafoli {
+  border-left: 6px solid #fff;
+}
+
+.titulo_portafoli {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  padding: 10px;
+  text-shadow: 10px 10px 5px #fff;
+}
+
+.trabajos {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  padding: 10px;
+  text-shadow: 10px 10px 5px #fff;
+}
+
+.box3-1 {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pagina1:hover {
+  margin-top: -20px;
+}
+
+.bindas {
+  width: 300px;
+  overflow: hidden;
+}
+
+.bindas img {
+  width: 100%;
+}
+
+.bindas:hover img {
+  transform: scale(1.3);
+  transition: all 0.7s;
+}
+
+.pagina1 {
+  position: relative;
+}
+
+.fondo_bindas {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(160, 153, 153, 0.377);;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.title1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title1 h2 {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.bindas:hover .fondo_bindas {
+  display: block;
+  transition: all 0.5s;
+}
+
+.pagina2 {
+  position: relative;
+}
+
+.pagina2:hover {
+  margin-top: -20px;
+  transition: all 0.5s;
+}
+
+.fondo_bindas {
+  width: 300px;
+  height: 100%;
+  background-color: rgba(160, 153, 153, 0.377);;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.title2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title2 h2 {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.bindas:hover .fondo_bindas {
+  display: block;
+  transition: all 0.5s;
+}
+
+.pagina3 {
+  position: relative;
+}
+
+.pagina3:hover {
+  margin-top: -20px;
+  transition: all 0.5s;
+}
+
+.fondo_bindas {
+  width: 300px;
+  height: 100%;
+  background-color:rgba(160, 153, 153, 0.377);;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.title3 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title3 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title3 h2 {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.bindas:hover .fondo_bindas {
+  display: block;
+  transition: all 0.5s;
+}
+
+.imagen {
+  width: 300px;
+  height: 180px;
+  background-color: #fff;
+}
+
+.fondo_proximamente {
+  width: 300px;
+  height: 180px;
+  background-color:rgba(160, 153, 153, 0.377);;
+}
+
+.pagina4:hover .title4 {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
+.title4 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title4 h2 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  text-shadow: 10px 10px 10px #000;
+}
+
+.box4 {
+  margin-top: 200px;
+}
+
+.parallax {
+  width: 100%;
+  height: 250px;
+  background-image: url(imagenes/codigo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo_parallax {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(160, 153, 153, 0.377);;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pregunta {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  position: absolute;
+  z-index: 20;
+}
+
+.btn_contacto {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  background-color: #000;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 180px;
+  z-index: 10;
+}
+
+.btn_contacto a {
+  text-decoration: none;
+  color: #dbd4d4;
+}
+
+.btn_contacto:hover {
+  background-color: rgba(160, 153, 153, 0.377);;
+}
+
+
+.box5 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.title5 {
+  text-align: left;
+  border-left: 6px solid #000;
+  padding-left: 10px;
+}
+
+.title5 h2 {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 10px 10px 10px #8a8686;
+}
+
+.info_box5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pregunton {
+  width: 300px;
+}
+
+.pregunton img {
+  width: 100%;
+}
+
+.quien1 {
+  border: 2px solid black;
+  max-width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.quien {
+  font-family: "Rubik", sans-serif;
+  max-width: 500px;
+}
+
+.bio_daniel {
+  border: 2px solid black;
+  font-family: "Rubik", sans-serif;
+  text-align: justify;
+  width: 500px;
+  padding: 15px;
+  display: none;
+}
+.questions {
+  width: 50%;
+  padding: 25px;
+}
+.porque {
+  font-family: "Rubik", sans-serif;
+  border: 2px solid black;
+  max-width: 500px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+#icono_plus {
+  cursor: pointer;
+}
+
+.motivo {
+  width: 500px;
+  font-family: "Rubik", sans-serif;
+  padding: 15px;
+  text-align: justify;
+  border: 2px solid black;
+  display: none;
+}
+
+.vision {
+  max-width: 500px;
+  padding: 15px;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.descrip_vision {
+  max-width: 500px;
+  font-family: "Rubik", sans-serif;
+  padding: 15px;
+  text-align: justify;
+  border: 2px solid black;
+  display: none;
+}
+
+.box6 {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background-color: #000;
+}
+
+.info_personal {
+  margin-top: 40px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.phone {
+  max-width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.phone a {
+  text-decoration: none;
+}
+
+.phone a:hover p {
+  color: #dfd225;
+}
+.fa-phone {
+  color: #fff;
+  font-size: 30px;
+}
+
+.tel {
+  color: #fff;
+  font-size: 20px;
+}
+
+.email {
+  max-width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.email a {
+  text-decoration: none;
+}
+
+.email a:hover p {
+  color: #dfd225;
+}
+
+.fa-envelope {
+  color: #fff;
+  font-size: 30px;
+}
+
+.mail {
+  color: #fff;
+  font-size: 20px;
+}
+
+.localizacion {
+  max-width: 300px;
+  height: 100px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.localizacion a {
+  text-decoration: none;
+}
+
+.localizacion a:hover p {
+  color: #dfd225;
+}
+
+.fa-location-dot {
+  font-size: 30px;
+  color: #fff;
+}
+
+.ciudad {
+  color: #fff;
+  font-size: 20px;
+}
+
+.titulo6 h2 {
+  font-size: 25px;
+  padding: 15px;
+  margin-left: 10px;
+  margin-top:40px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  text-align: left;
+  border-left: 6px solid #fff;
+  text-shadow: 10px 10px 5px #fff;
+}
+
+.info_contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.formulario {
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+  margin-bottom: 80px;
+}
+
+.unidos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.name {
+  width: 100%;
+  height: 25px;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+}
+
+.correo {
+  width: 100%;
+  height: 25px;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+}
+
+.subject {
+  width: 100%;
+  height: 25px;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.mensaje {
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+}
+
+.btn_enviar {
+  display: block;
+  padding: 10px 30px;
+  font-family: "Rubik", sans-serif;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.btn_enviar:hover {
+  background-color: #ecdb9f;
+}
+
+.mapa {
+  width: 100%;
+  height: 300px;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(212, 30, 30);
+  text-align: center;
+}
+.amarillo {
+  color: #ecdb9f;
+}
+footer p {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+}

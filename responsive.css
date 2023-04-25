@@ -1,0 +1,441 @@
+@media screen and (max-width: 854px) {
+  .titulo1 {
+    margin-left: 15px;
+  }
+
+  .skills {
+    margin-top: 100px;
+    width: 820px;
+    padding: 25px;
+    line-height: 30px;
+    border: 4px ridge #000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #8b8b8b;
+  }
+
+  .portafoli {
+    margin-left: 15px;
+  }
+
+  .title5{
+    margin-left: 15px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contenedorlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+  }
+  .barras {
+    display: block !important;
+  }
+  .logo {
+    display: block;
+  }
+  .menu_opciones {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .menu {
+    display: block;
+    width: 100%;
+  }
+
+  .menu_opciones a {
+    border-bottom: 2px dotted #fff;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+   .perfil {
+    width: 140px;
+    
+  
+  } 
+
+  .nombre {
+    font-size: 30px;
+  }
+  #menu {
+    display: none;
+  }
+
+  .animacion {
+    height: 500px;
+  }
+
+  .ocupacion {
+    font-size: 20px;
+  }
+
+  .skills {
+    max-width: 700px;
+  }
+
+  .barra1-1 {
+    max-width: 550px;
+  }
+
+  .barra2-2 {
+    max-width: 470px;
+  }
+
+  .box2 {
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  .box2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .titulo1 {
+    margin-top: 80px;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 80px;
+    border-left: 6px solid #000;
+    max-width: 600px;
+  }
+
+  .box5 {
+    padding: 10px;
+  }
+
+  .info_box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+
+
+  .portafoli {
+    margin-left: 60px;
+  }
+}
+
+/* Celular */
+
+@media screen and (max-width: 751px) {
+  .animacion {
+    height: 500px;
+  }
+
+
+  .foto_daniel {
+    max-width: 500px;
+  }
+
+  .info_daniel {
+    max-width: 600px;
+  }
+
+  .skills {
+    max-width: 700px;
+  }
+
+  .barra1-1 {
+    max-width: 550px;
+  }
+
+  .barra2-2 {
+    max-width: 470px;
+  }
+
+
+
+}
+@media screen and (max-width: 650px) {
+  .box6 {
+    padding: 5px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  
+  .foto_daniel {
+    max-width: 400px;
+  }
+
+  .animacion {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .skills {
+    max-width: 450px;
+  }
+
+  .barra1-1 {
+    max-width: 350px;
+  }
+
+  .barra2-2 {
+    max-width: 270px;
+  }
+
+  .questions {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .quien1 {
+    max-width: 400px;
+  }
+
+  .bio_daniel {
+    width: 400px;
+  }
+
+  .motivo {
+    width: 400px;
+  }
+
+  .pregunta {
+    width: 400px;
+  }
+
+  .box3 {
+    border: 2px solid black;
+    padding-bottom: 100px;
+  }
+
+  .portafoli {
+    margin-left: 20px;
+    border-left: 6px solid #fff;
+  }
+
+  .info_personal {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .quien {
+    max-width: 450px;
+  }
+
+  .porque{
+    max-width: 400px;
+  }
+
+  .vision{
+    max-width: 400px;
+  }
+
+  .descrip_vision {
+    max-width: 400px;
+  }
+
+  .titulo6 h2 {
+    margin-bottom: 50px;
+  }
+
+  .phone {
+    border: none;
+  }
+
+  .email {
+    border: none;
+  }
+
+  .localizacion {
+    border: none;
+  }
+
+  .formulario {
+    margin-top: 50px;
+  }
+
+  .unidos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+
+
+@media screen and (max-width: 386px) {
+  header i {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .menu_opciones {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .menu {
+    display: block;
+    width: 100%;
+  }
+
+  .menu_opciones a {
+    border-bottom: 2px dotted #fff;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+
+
+  .info_daniel {
+    max-width: 300px;
+  }
+
+  .animacion {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .skills {
+    max-width: 350px;
+  }
+
+  .barra1-1 {
+    max-width: 240px;
+  }
+
+  .barra2-2 {
+    max-width: 210px;
+  }
+
+  .questions {
+    width: 100%;
+    padding: 0;
+  }
+
+  .quien1 {
+    width: 300px;
+  }
+
+  .vision {
+    max-width: 300px;
+  }
+
+  .descrip_vision {
+    max-width: 300px;
+  }
+
+  .bio_daniel {
+    width: 400px;
+    text-align: left;
+  }
+
+  .porque {
+    width: 400px;
+    text-align: left;
+  }
+
+  .motivo {
+    width: 400px;
+  }
+
+  .pregunta {
+    width: 350px;
+  }
+
+  .box3 {
+    border: 2px solid black;
+    padding-bottom: 100px;
+  }
+
+  .portafoli {
+    margin-left: 15px;
+  }
+
+  .info_daniel {
+    max-width: 350px;
+   
+  }
+
+  
+.title5 {
+  max-width: 350px;
+  padding-left: 5px;
+}
+
+  .quien {
+    width: 300px;
+  }
+
+  .questions {
+    margin: auto;
+    padding: 30px;
+  }
+
+  .bio_daniel {
+    width: 300px;
+  }
+
+  .porque {
+    width: 300px;
+  }
+
+  .motivo {
+    width: 300px;
+  }
+
+  .formulario {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+  }
+  .unidos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+  }
+
+  .btn_enviar {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  footer {
+    padding: 0;
+  }
+}
+}
